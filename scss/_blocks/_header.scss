@@ -1,0 +1,7 @@
+@use "global";
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
