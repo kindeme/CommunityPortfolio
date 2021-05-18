@@ -1,7 +1,8 @@
-@use "global";
+@import "_global";
 
 .header {
+  background: $bg-primary;
+  min-height: 100vh;
   &__nav {
-    display: flex;
   }
 }

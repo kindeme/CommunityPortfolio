@@ -10,7 +10,15 @@ $clr-title: #cccccc;
 $clr-text: #727b86;
 $bg-primary: #2b2c2c;
 $bg-secondary: #303131;
-$transition: all 0.5s linear;
+$transition: all 0.3s linear;
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 a {
   text-decoration: none;
@@ -20,15 +28,16 @@ li {
 }
 .btn {
   border-radius: 5px;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
   text-transform: capitalize;
   color: $clr-white;
-  background: $clr-primary;
-  padding: 0.6rem 1.5rem;
+  background: $clr-secondary;
+  padding: 0.7rem 2rem;
+  transition: $transition;
   &:hover {
     color: $clr-secondary;
-    border: 1px solid $clr-secondary;
+    border: 2px solid $clr-secondary;
     background: $bg-primary;
   }
 }

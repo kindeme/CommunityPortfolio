@@ -1,7 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap");
+/*
+=================================
+=================================
+
+*/
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  border-radius: 5px;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #feb633;
+  padding: 0.7rem 2rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  color: #feb633;
+  border: 2px solid #feb633;
+  background: #2b2c2c;
+}
+
+.header {
+  background: #2b2c2c;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
